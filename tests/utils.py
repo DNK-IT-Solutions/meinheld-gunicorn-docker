@@ -56,6 +56,7 @@ def get_response_text2() -> str:
 
 
 def generate_dockerfile_content(name: str) -> str:
-    content = f"FROM tiangolo/meinheld-gunicorn:{name}\n"
+    docker_tag_startswith = os.getenv("DOCKER_TAG_STARTSWITH")
+    content = f"FROM {docker_tag_startswith}:{name}\n"
     content += "COPY ./app /app\n"
     return content

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-use_tag="tiangolo/meinheld-gunicorn:$NAME"
+use_tag="$DOCKER_TAG_STARTSWITH:$NAME"
 
 DOCKERFILE="$NAME"
 

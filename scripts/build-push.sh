@@ -2,7 +2,7 @@
 
 set -e
 
-use_tag="tiangolo/meinheld-gunicorn:$NAME"
+use_tag="$DOCKER_TAG_STARTSWITH:$NAME"
 use_dated_tag="${use_tag}-$(date -I)"
 
 bash scripts/build.sh

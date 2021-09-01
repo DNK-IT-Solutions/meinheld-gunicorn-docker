@@ -48,3 +48,4 @@ jobs:
           PYTHON_VERSION: ${{ matrix.image.python_version }}
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_TAG_STARTSWITH: ${{ secrets.DOCKER_TAG_STARTSWITH }}

@@ -35,7 +35,8 @@ def verify_container(container: Container, response_text: str) -> None:
 
 def test_env_vars_1() -> None:
     name = os.getenv("NAME")
-    image = f"tiangolo/meinheld-gunicorn:{name}"
+    docker_tag_startswith = os.getenv("DOCKER_TAG_STARTSWITH")
+    image = f"{docker_tag_startswith}:{name}"
     response_text = get_response_text1()
     sleep_time = int(os.getenv("SLEEP_TIME", 1))
     remove_previous_container(client)

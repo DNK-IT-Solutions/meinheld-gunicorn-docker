@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
           python-version: "3.7"
       - name: Install Dependencies
@@ -44,3 +44,4 @@ jobs:
           NAME: ${{ matrix.image.name }}
           DOCKERFILE: ${{ matrix.image.dockerfile }}
           PYTHON_VERSION: ${{ matrix.image.python_version }}
+          DOCKER_TAG_STARTSWITH: ${{ secrets.DOCKER_TAG_STARTSWITH }}

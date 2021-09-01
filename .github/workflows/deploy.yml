@@ -1,12 +1,14 @@
 name: Deploy
 
 on:
-  push:
-    branches:
-      - master
+  workflow_run:
+    workflows: ["Test"]
+    branches: [master]
+    types: [completed]
 
 jobs:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     strategy:
       matrix:
         image:
@@ -33,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
           python-version: "3.7"
       - name: Install Dependencies

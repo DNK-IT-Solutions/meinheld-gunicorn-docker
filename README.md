@@ -1,14 +1,15 @@
-[![Test](https://github.com/tiangolo/meinheld-gunicorn-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/meinheld-gunicorn-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-docker/actions?query=workflow%3ADeploy)
+[![Test](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/actions/workflows/test.yml/badge.svg)](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/actions/workflows/test.yml)
+[![Deploy](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/actions/workflows/deploy.yml/badge.svg)](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/actions/workflows/deploy.yml)
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`python3.8`, `latest` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-docker/blob/master/docker-images/python3.8.dockerfile)
-* [`python3.8-alpine3.11` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-docker/blob/master/docker-images/python3.8-alpine3.11.dockerfile)
-* [`python3.7`, _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-docker/blob/master/docker-images/python3.7.dockerfile)
-* [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-docker/blob/master/docker-images/python3.7-alpine3.8.dockerfile)
-* [`python3.6` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-docker/blob/master/docker-images/python3.6.dockerfile)
-* [`python3.6-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-docker/blob/master/docker-images/python3.6-alpine3.8.dockerfile)
-* [`python2.7` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-docker/blob/master/docker-images/python2.7.dockerfile)
+* [`python3.9`, `latest` _(Dockerfile)_](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/blob/master/docker-images/python3.9.dockerfile)
+* [`python3.9-alpine3.13` _(Dockerfile)_](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/blob/master/docker-images/python3.9-alpine3.13.dockerfile)
+* [`python3.8-alpine3.11` _(Dockerfile)_](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/blob/master/docker-images/python3.8-alpine3.11.dockerfile)
+* [`python3.7`, _(Dockerfile)_](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/blob/master/docker-images/python3.7.dockerfile)
+* [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/blob/master/docker-images/python3.7-alpine3.8.dockerfile)
+* [`python3.6` _(Dockerfile)_](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/blob/master/docker-images/python3.6.dockerfile)
+* [`python3.6-alpine3.8` _(Dockerfile)_](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/blob/master/docker-images/python3.6-alpine3.8.dockerfile)
 
 **Note**: Note: There are [tags for each build date](https://hub.docker.com/r/tiangolo/meinheld-gunicorn/tags). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/meinheld-gunicorn:python3.7-2019-10-15`.
 
@@ -16,9 +17,9 @@
 
 [**Docker**](https://www.docker.com/) image with [**Meinheld**](http://meinheld.org/) managed by [**Gunicorn**](https://gunicorn.org/) for high-performance web applications in **[Python](https://www.python.org/) 3.6** and above and **Python 2.7**, with performance auto-tuning. Optionally with Alpine Linux.
 
-**GitHub repo**: [https://github.com/tiangolo/meinheld-gunicorn-docker](https://github.com/tiangolo/meinheld-gunicorn-docker)
+[**GitHub repo**](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker)
 
-**Docker Hub image**: [https://hub.docker.com/r/tiangolo/meinheld-gunicorn/](https://hub.docker.com/r/tiangolo/meinheld-gunicorn/)
+[**Docker Hub image**](https://hub.docker.com/r/dnkitsolutions/meinheld-gunicorn/)
 
 ## Description
 

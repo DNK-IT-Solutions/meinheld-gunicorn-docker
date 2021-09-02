@@ -312,6 +312,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 0.4.0 Release. PR [#1](https://github.com/DNK-IT-Solutions/meinheld-gunicorn-docker/pull/1) by [@md5orsha256](https://github.com/md5orsha256).
 * 👷 Add latest-changes GitHub Action, update issue-manager, and add sponsors funding. PR [#21](https://github.com/tiangolo/meinheld-gunicorn-docker/pull/21) by [@tiangolo](https://github.com/tiangolo).
 * Add Python 3.8 with Alpine 3.11. PR [#16](https://github.com/tiangolo/meinheld-gunicorn-docker/pull/16).
 * Add support for Python 3.8. PR [#15](https://github.com/tiangolo/meinheld-gunicorn-docker/pull/15).
